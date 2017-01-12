@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InVision</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="new_account">NEW ACCOUNT</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="continue_1">CONTINUE</string>
+    <string name="name">NAME</string>
+    <string name="gender">GENDER</string>
+    <string name="birthday">BIRTHDAY</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="or_use">or use your email adress</string>
+    <string name="connect_facebook">Connect with\n Facebook</string>
+    <string name="connect_twitter">Connect with\n Twitter</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="textview1">35dp</dimen>
+    <dimen name="marginWelcome">25dp</dimen>
+    <dimen name="marginAvatar">100dp</dimen>
+    <dimen name="relativeLayoutlayer1">70dp</dimen>
+    <dimen name="topMarginAvatar">100dp</dimen>
+    <dimen name="signupin_linearL1">130dp</dimen>
+    <dimen name="signupin_edittext1">34dp</dimen>
+    <dimen name="signupin_relativeL1">130dp</dimen>
+    <dimen name="signupin_relativeL2">70dp</dimen>
+    <dimen name="signupin_drawablePadding">10dp</dimen>
+    <dimen name="signupin_marginLR">25dp</dimen>
+    <dimen name="signin_marginT">12dp</dimen>
+    <dimen name="signinup_linearL2">50dp</dimen>
+    <dimen name="signin_relativeL1">20dp</dimen>
+</resources>

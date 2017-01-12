@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.david.invision.NewAccount">
+
+    <LinearLayout
+        android:id="@+id/linearid1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/signupin_linearL1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/twiterTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signupin_edittext1"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/twitter"
+            android:gravity="center"
+            android:text="@string/connect_twitter"
+            android:textColor="@color/colorWhite" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line1" />
+
+        <TextView
+            android:id="@+id/facebookTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signupin_edittext1"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/facebook"
+            android:gravity="center"
+            android:text="@string/connect_facebook"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/linearid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearid1"
+        android:src="@drawable/line" />
+
+    <RelativeLayout
+        android:id="@+id/linearid3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/signupin_relativeL1"
+        android:layout_below="@id/linearid2"
+        android:layout_marginTop="@dimen/signin_relativeL1">
+
+        <TextView
+            android:id="@+id/messageID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/signupin_drawablePadding"
+            android:text="@string/or_use"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearid3"
+        android:layout_marginLeft="@dimen/signupin_marginLR"
+        android:layout_marginRight="@dimen/signupin_marginLR"
+        android:layout_marginTop="@dimen/signin_marginT"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/signinup_linearL2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textv3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.5"
+                android:text="@string/email"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textv4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="paul@invisionapp.com"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/signinup_linearL2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textv5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.5"
+                android:text="@string/password"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textv6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:text="**********"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/signupin_relativeL2"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/aloha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sign_in"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+</RelativeLayout>
