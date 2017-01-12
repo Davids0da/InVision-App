@@ -145,9 +145,11 @@
     </LinearLayout>
 
     <RelativeLayout
+        android:id="@+id/textv10"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signupin_relativeL2"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:onClick="startHomeActivity">
 
         <ImageView
             android:id="@+id/aloha"
@@ -156,7 +158,6 @@
             android:src="@drawable/line" />
 
         <TextView
-            android:id="@+id/textv10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
