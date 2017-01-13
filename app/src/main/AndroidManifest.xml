@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".NewAccount" />
         <activity android:name=".SignIn" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".Overview"></activity>
     </application>
 
 </manifest>

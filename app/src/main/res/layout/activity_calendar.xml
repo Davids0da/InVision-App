@@ -22,11 +22,10 @@
             android:src="@drawable/menu" />
 
         <TextView
-            android:id="@+id/textViewHome"
+            android:id="@+id/calendarTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="SRBIJA"
             android:textColor="@color/colorWhite" />
 
         <ImageView
@@ -36,134 +35,22 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:alpha="1"
-            android:src="@drawable/avatar2" />
+            android:src="@drawable/settings" />
 
     </RelativeLayout>
 
-    <RelativeLayout
-        android:id="@+id/homeRelative2"
+    <CalendarView
+        android:theme="@style/CalendarStyle"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/home_relative1"
-        android:layout_below="@id/homeRelative1">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:src="@drawable/shape" />
-
-        <TextView
-            android:id="@+id/homeTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/home_date_text_size" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:src="@drawable/shape1" />
-
-    </RelativeLayout>
-
-    <ImageView
-        android:id="@+id/homeImageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/homeRelative2"
-        android:alpha="1"
-        android:src="@drawable/line" />
-
-    <LinearLayout
-        android:id="@+id/homeLinearLayout1"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/signupin_linearL1"
-        android:layout_below="@id/homeImageView1"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="5"
-                android:textColor="@color/colorWhite"
-                android:textSize="@dimen/home_text_size_2" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:alpha="0.5"
-                android:text="TASKS DUE"
-                android:textColor="@color/colorWhite" />
-
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/line1" />
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/sunny_margin_top"
-                    android:src="@drawable/sunny" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="33"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="@dimen/home_text_size_2" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="@dimen/celsious"
-                    android:text="\u00B0"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="@dimen/home_text_size_3" />
-
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:alpha="0.5"
-                android:text="SAN FRANCISCO"
-                android:textColor="@color/colorWhite" />
-        </LinearLayout>
-
-    </LinearLayout>
+        android:layout_height="@dimen/calendar_view"
+        android:id="@+id/calendar1"
+        android:layout_below="@id/homeRelative1"></CalendarView>
 
     <ImageView
         android:id="@+id/homeImageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/homeLinearLayout1"
+        android:layout_below="@id/calendar1"
         android:alpha="1"
         android:src="@drawable/line" />
 
@@ -392,10 +279,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:alpha="0.6"
+            android:alpha="1"
             android:src="@drawable/calendar"
-            android:onClick="startCalendarActivity"/>
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -407,15 +293,17 @@
             />
 
         <ImageView
+            android:id="@+id/overview1"
+            android:onClick="startOverviewActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
             android:padding="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true"
             android:alpha="0.6"
-            android:src="@drawable/overview"
-            android:onClick="startOverviewActivity"/>
+            android:src="@drawable/overview" />
 
     </RelativeLayout>
+
 
 </RelativeLayout>
