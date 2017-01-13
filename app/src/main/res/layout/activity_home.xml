@@ -19,7 +19,8 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:alpha="0.6"
-            android:src="@drawable/menu" />
+            android:src="@drawable/menu"
+            android:onClick="startNavigationActivity"/>
 
         <TextView
             android:id="@+id/textViewHome"

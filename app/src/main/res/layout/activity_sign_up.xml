@@ -228,7 +228,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/signupin_relativeL2"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:onClick="startHomeActivity">
 
         <ImageView
             android:id="@+id/aloha"

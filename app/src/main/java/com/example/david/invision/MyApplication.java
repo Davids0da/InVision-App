@@ -1,7 +1,6 @@
 package com.example.david.invision;
 
 import android.app.Application;
-
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 /**

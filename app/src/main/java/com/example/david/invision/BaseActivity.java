@@ -22,4 +22,12 @@ public class BaseActivity extends AppCompatActivity {
         Intent a = new Intent(this, Overview.class);
         startActivity(a);
     }
+    public void startHomeActivity(View view) {
+        Intent i = new Intent(this, HomeActivity.class);
+        startActivity(i);
+    }
+    public void startNavigationActivity(View view) {
+        Intent c = new Intent(this, Navigation.class);
+        startActivity(c);
+    }
 }

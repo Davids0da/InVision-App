@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="com.example.david.invision.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/homeRelative1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/signupin_relativeL2"
+        android:background="@drawable/bounds">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:alpha="0.6"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="SRBIJA"
+            android:textColor="@color/colorWhite" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/homeRelative1"
+        android:layout_above="@+id/navigationrelative">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/signupin_linearL1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigate_linear1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/home1"
+                    android:gravity="center"
+                    android:text="@string/navigate_home"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/calendar1"
+                    android:gravity="center"
+                    android:text="@string/navigate_calendar"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigate_linear1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/groups1"
+                    android:gravity="center"
+                    android:text="@string/navigate_groups"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/overview1"
+                    android:gravity="center"
+                    android:text="@string/navigate_overview"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigate_linear1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/lists1"
+                    android:gravity="center"
+                    android:text="@string/navigate_lists"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/profile1"
+                    android:gravity="center"
+                    android:text="@string/navigate_profile"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigate_linear1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/timeline1"
+                    android:gravity="center"
+                    android:text="@string/navigate_timeline"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/settings1"
+                    android:gravity="center"
+                    android:text="@string/navigate_profile"
+                    android:textColor="@color/colorWhite"
+                    android:drawablePadding="@dimen/navigation_padding"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/navigationrelative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigate_bottom"
+        android:onClick="exitApplication"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigate_logout"
+            android:textColor="@color/colorWhite"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

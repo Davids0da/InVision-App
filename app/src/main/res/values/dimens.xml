@@ -24,6 +24,9 @@
     <dimen name="home_text_size_4">17dp</dimen>
     <dimen name="home_relative3">60dp</dimen>
     <dimen name="calendar_view">250dp</dimen>
+    <dimen name="navigate_linear1">130dp</dimen>
+    <dimen name="navigation_padding">15dp</dimen>
+    <dimen name="navigate_bottom">60dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
