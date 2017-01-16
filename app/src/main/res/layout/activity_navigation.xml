@@ -171,7 +171,8 @@
                     android:gravity="center"
                     android:text="@string/navigate_timeline"
                     android:textColor="@color/colorWhite"
-                    android:drawablePadding="@dimen/navigation_padding"/>
+                    android:drawablePadding="@dimen/navigation_padding"
+                    android:onClick="startTimelineActivity"/>
 
                 <ImageView
                     android:layout_width="wrap_content"

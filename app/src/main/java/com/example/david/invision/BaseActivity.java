@@ -30,4 +30,8 @@ public class BaseActivity extends AppCompatActivity {
         Intent c = new Intent(this, Navigation.class);
         startActivity(c);
     }
+    public void startTimelineActivity(View view) {
+        Intent p = new Intent(this,Timeline.class);
+        startActivity(p);
+    }
 }
